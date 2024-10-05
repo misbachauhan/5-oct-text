@@ -1,0 +1,72 @@
+.br {border: 2px solid red;}
+.bd {border: 2px solid darkblue;}
+.bt {border: 2px solid teal;}
+.bh {border: 2px solid hotpink;}
+.bf {border: 2px solid firebrick;}
+.bg {border: 2px solid green;}
+
+
+.img-box-one {
+    background-image: url(Crush-Cb-Editing-Background-Girl.jpg);
+    background-size: cover;
+    z-index: 111111;
+    position: relative;
+}
+
+.img-box-tow {
+    background-image: url(i--3.jpg);
+    background-size: cover;
+    z-index: 111111;
+    position: relative;
+}
+
+.img-box-three {
+    background-image: url(beautiful-young-asian-woman-portrait-cute-girl-wallpaper-background-photo_877869-9267.avif);
+    background-size: cover;
+    z-index: 111111;
+    position: relative;
+}
+
+.img-box-four {
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+    z-index: 111111;
+    position: relative;
+
+}
+
+.text-main-div {
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section-one {
+        overflow: hidden;
+    }
+
+    .section-tow {
+        overflow: hidden;
+    }
+
+    .sec-img img {
+        width: 400px!important;
+    }
+
+    .section-three {
+        overflow: hidden;
+        padding: 20px!important;
+    }
+
+    .sec-three {
+        gap: 20px;
+    }
+
+
+    .sec-three-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
